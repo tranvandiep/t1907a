@@ -1,0 +1,13 @@
+B1. Cấu hình CSDL
+- Tạo CSDL -> db1656
+- Tạo bảng sinh viên
+create table student (
+	id int primary key auto_increment,
+	fullname varchar(80) not null,
+	age int,
+	address varchar(200)
+)
+
+B2. Tạo dự án PHP
+- Giao dien
+- DBHelper -> cau hinh & lenh thao tac CSDL -> common

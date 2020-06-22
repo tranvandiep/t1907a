@@ -1,0 +1,12 @@
+B1. Tạo form dữ liệu nhập thông tin người dùng => Dùng form có sẵn
+B2. Tạo CSDL : quanlysinhvien
+- Tảo bảng user
+create table user (
+	id int primary key auto_increment,
+	fullname varchar(50) not null,
+	email varchar(150),
+	birthday date,
+	password varchar(32),
+	address varchar(250)
+)
+B3. Thao tác dữ liệu PHP & MySQL
